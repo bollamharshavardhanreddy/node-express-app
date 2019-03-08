@@ -7,7 +7,9 @@ const port = 3002
 app.get('/', function (req, res) {
   res.send('Welcome home!')
 })
-
+app.get('/Harsha', function (req, res) {
+  res.send('Welcome to WebApps')
+})
 app.get('/hello', (req, res) => {
   res.send('Hello World!')
 })
